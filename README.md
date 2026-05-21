@@ -1,6 +1,6 @@
 # Valdium Explorer
 
-Standalone Next.js block explorer for the Valdium L1, with a sibling SQLite indexer that powers per-address transaction history.
+Standalone Next.js block explorer for the Valdium L1, with a sibling SQLite indexer that powers per-address transaction history. 
 
 Same design language as `valdium.com` (Plus Jakarta + DM Mono + dashed rails + dark theme). Talks to any Valdium node over Ethereum-style JSON-RPC. Default RPC is `https://testnet.valdium.com`.
 
