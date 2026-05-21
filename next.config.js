@@ -4,7 +4,7 @@ const nextConfig = {
   productionBrowserSourceMaps: false,
   async rewrites() { 
     return [
-      // Expose the faucet relay at /dev/faucet too, so callers that
+      // Expose the faucet relay at /dev/faucet too, so callers that 
       // already construct ${base}/dev/faucet (the wallet bot) just work.
       { source: '/dev/faucet', destination: '/api/dev/faucet' },
     ];
