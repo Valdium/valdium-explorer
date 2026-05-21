@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   productionBrowserSourceMaps: false,
-  async rewrites() {
+  async rewrites() { 
     return [
       // Expose the faucet relay at /dev/faucet too, so callers that
       // already construct ${base}/dev/faucet (the wallet bot) just work.
