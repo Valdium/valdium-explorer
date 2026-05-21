@@ -3,7 +3,7 @@
 // block hash, address) and fetches a tight preview before the user
 // commits to navigation. Click a result or hit Enter to navigate.
 //
-// milkie · 2026
+// milkie · 2026 
 
 import { useEffect, useRef, useState, useCallback } from 'react';
 import { useRouter } from 'next/router';
